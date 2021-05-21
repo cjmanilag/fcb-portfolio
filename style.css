@@ -1,0 +1,41 @@
+body {
+
+background-color: #D3D3D3;
+
+}
+
+img {
+	width: 250px;
+	border-radius: 50%;
+}
+
+*{
+	font-family: "Roboto", san-serif;
+}
+
+h1
+,
+h2{
+	font-family: "Montserrat", san-serif;
+
+}
+
+#landing, 
+#gallery{
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	color: #ffffff
+}
+
+h2{
+	color: #007bff;
+}
